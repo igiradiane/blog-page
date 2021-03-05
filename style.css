@@ -1,0 +1,166 @@
+
+body{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  display: block;
+}
+#topnav{
+    background-color:#000000; 
+    overflow: hidden;   
+
+   
+    background-image: url(https://storage.needpix.com/rsynced_images/aerial-3246120_1280.jpg);
+  }
+  #topnav a{
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+    color: rgb(0, 0, 0);
+   margin: 9px 29px 20px 10px;
+ padding-top: 4%;
+ margin-bottom: 40%;
+  }
+  
+
+  .sidenav{
+    
+    width:15%;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    margin-top: 3%;
+    overflow-x: hidden;
+    
+    height: 200px;
+    box-shadow: 0px 2px 2px 2px  rgb(223, 216, 216);
+  }
+  .sidenav a{
+  padding: 6px 8px 0px 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 19px;
+  box-shadow: 1px 2px 1px 1px  rgb(212, 206, 206);
+
+  
+  }
+  
+  .sidenav a:hover{
+    background-color:  rgba(128, 90, 37, 0.651);
+  }
+
+  
+.grid-container {
+    margin-top:2%;
+    display: grid;
+    grid-template-columns: auto  auto;
+    width: 70%;
+    margin-left: 15%;
+    grid-gap:40px;
+    
+    
+   /* / overflow-x: hidden; */
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+    .grid-item{
+        
+        box-shadow: 1px 1px 2px 1px  rgb(49, 49, 49);
+        width: 100%; 
+        
+  }
+.grid-container :hover{
+  background-color: rgba(128, 90, 37, 0.651);
+}
+
+.grid-item a{
+  text-decoration: none;
+}
+
+
+  #log{
+    background-color: rgb(255, 255, 255);
+    width:300px;
+    box-shadow: 5px 5px 10px;
+    
+    padding: 20px;
+    /* transition: 10; */
+   
+    height: 300px;
+    border-radius: 25px;
+    display:none;
+    
+    top: 30px;
+    margin-left: 34%;
+position: fixed;
+}
+#btn{
+  padding: 4px 8px 4px 8px;
+  margin-left: 20%;
+   color: aliceblue;
+    background-color: black;
+}
+#display{
+  background-color:#080808; 
+  overflow: hidden;   
+  width: 100%;
+  height: 60px;
+  }
+  
+ #display a{
+  text-decoration: none;
+  padding: 12px 14px;
+  float: right;
+color: rgb(255, 255, 255);
+  
+ }
+  #display a:hover{
+    background-color: rgb(131, 133, 133);
+  }
+  .search-container{
+    float: right;
+    width: 83%;
+    padding: 10px 10px;
+    height: 40px;
+  background-color: rgb(44, 46, 48);
+  border: none;
+  font-size: 20px;
+  margin-top: 3px;
+  border-radius: 8px;
+  
+  }
+  #input{
+  width: 75%;
+  border: none;
+  height: 30px;
+  padding-left: 10px;
+  
+  }
+  #button{
+    height: 5px;
+    width: 50px;
+   border: none;
+  display: inline-block;
+  
+  
+  }
+  #button :hover{
+    background-color: blue;
+  }
+  
+  #area{
+    margin-left: 16%;
+}
+#mm{
+    width: 54px;
+    border: none;
+    border-radius: 4px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255); background-color: black; 
+     
+}
